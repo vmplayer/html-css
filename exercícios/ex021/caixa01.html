@@ -1,0 +1,66 @@
+<!--User Agent é a configuração padrão do navegador, feita pelo próprio navegador.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            background-color: lightgray;
+            height: 40px;
+            width: max-content;
+
+            border: 2px solid darkslategray;
+
+            /*border-width: 2px;
+            border-style: solid;
+            border-color: darkslategray;*/
+            
+            /*A ordem de indicação do padding deve ser feita em girando em sentido horário.*/
+            padding: 2px 2px 2px 2px;
+
+            /*padding-top: 2px;
+            padding-right: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;*/
+
+            /*margin: auto; centraliza o elemento*/
+            
+            margin: 20px auto 40px auto;
+
+            /*margin-top: 20px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 0px;*/
+
+            outline: 3px dashed salmon;
+
+            /*outline-width: 3px;
+            outline-style: dashed;
+            outline-color: salmon;*/
+        }
+
+        a { /*inline-level*/
+            border-width: 2px;
+            border-style: solid; 
+            /*solid, double, dotted, groove e dashed*/
+            border-color: red;
+
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="a">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

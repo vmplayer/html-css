@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        header > h1 > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        header > h1 > a:hover {
+            color: color-mix(in srgb-linear, blue 50%, red 50%);
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 3px 6px;
+            border-radius: 7px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+
+        nav > a#mark:hover {
+            color: blue;
+        }
+
+        nav > a#imposto-de-renda:hover {
+            color: green;
+        }
+
+        nav > a#chatgpt:hover {
+            color: black;
+        }
+
+        nav > a#ultrasoft:hover {
+            color: blueviolet;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(167, 167, 167);
+            padding: 0px 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="caixa02.html">Portal Notícias xD</a></h1>
+        <nav>
+            <a href="https://pt.wikipedia.org/wiki/Mark_Zuckerberg" target="_blank" rel="external" id="mark">Mark Zuckerberg</a>
+            <a href="https://www.gov.br/pt-br/servicos/declarar-meu-imposto-de-renda" target="_blank" rel="external" id="imposto-de-renda">Imposto de Renda</a>
+            <a href="https://chatgpt.com/" target="_blank" rel="external" id="chatgpt">ChatGPT</a>
+            <a href="https://instagram.com/ultrasoftbr/" target="_blank" rel="external" id="ultrasoft">Ultrasoft</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h3>Mundo > Países > Brasil</h3>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis itaque reprehenderit, non nesciunt blanditiis odit alias esse architecto doloribus. Ipsam pariatur voluptate hic repellendus recusandae itaque aut aliquid ad expedita.</p>
+                <aside>
+                    <p>Artigo desenvolvido por mim que escrevo lorem</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc;
+            Geralmente 16px é o valor padrão dos navegadores para tipografias.
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %;
+            16px geralmente equivale 1em. (16px = 1em)
+
+            SEMPRE TENTE USAR .px E .em (oficialmente recomendadas para uso)!!
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: normal;
+            /*lighter, normal, bold, bolder.*/
+        }
+
+        h1 {
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*
+            shorthand font:
+            font-style => font-weight => font-size => font-family
+
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+            */
+        }
+
+        h2 {
+            font: italic bold 2em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic mollitia earum harum eveniet nostrum, velit laborum rerum, temporibus sit corporis ipsum fuga adipisci, itaque aliquam blanditiis animi optio laudantium illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati officiis dolorum nesciunt! Corporis libero a nesciunt officiis, ratione architecto hic beatae fugit suscipit maiores dolore nihil quis, commodi vitae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam optio omnis nobis aperiam hic voluptatibus officiis mollitia sed enim non. Distinctio molestias ratione vero earum nulla nostrum omnis libero officiis.</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, corrupti ex quisquam sunt nobis veniam tempore consequatur repellat earum necessitatibus, iure, fugit qui eaque delectus nemo eum. Unde, minima laborum.</p>
+    </main>
+</body>
+</html>

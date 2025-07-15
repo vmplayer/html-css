@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Western Bang Bang';
+            src: url('fonts/WesternBangBang-Regular.woff2') format('woff2'),
+            url('fonts/WesternBangBang-Regular.woff') format('woff'),
+            url(fonts/WesternBangBang-Regular.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+                .woff (Web Open Font Format) (1 e 2)
+            */
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Western Bang Bang', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio enim excepturi debitis. Minus eaque repellat quis inventore quaerat neque placeat? Ex ea fugiat repudiandae labore sint hic. Perferendis, cupiditate?</p>
+</body>
+</html>
