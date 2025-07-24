@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+ @view-transition {
+    navigation: auto;
+}
+
 * {
     font-family: "Lexend Deca", sans-serif;
     margin: 0px;
@@ -18,9 +22,14 @@ body {
     background-image: linear-gradient(45deg, aliceblue, lightblue);
 }
 
+p {
+    text-indent: 7px;
+    text-align: justify;
+}
+
 header > img#banner{
     height: 8cm;
-    width: 100%;
+    width: 98%;
     object-fit: cover;
     object-position: center;
     border-radius: 1cm;
@@ -77,6 +86,8 @@ main > h6 {
 }
 
 aside > ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style-type: none;
 }
 
