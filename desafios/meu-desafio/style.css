@@ -6,6 +6,7 @@
 
 * {
     font-family: "Lexend Deca", sans-serif;
+    margin: 0px;
 }
 
 ::selection {
@@ -15,7 +16,6 @@
 
 body {
     background-image: linear-gradient(45deg, aliceblue, lightblue);
-    height: 100vh;
 }
 
 header > img#banner{
@@ -24,7 +24,7 @@ header > img#banner{
     object-fit: cover;
     object-position: center;
     border-radius: 1cm;
-    margin-bottom: 20px;
+    margin: 10px 10px 20px 10px;
 }
 
 nav {
@@ -36,7 +36,6 @@ nav {
     padding: 10px 10px 10px 10px;
     text-align: center;
     margin: 5px 30px;
-    text-align: center;
     display: flex;
     justify-content: space-between;
 }
@@ -79,4 +78,15 @@ main > h6 {
 
 aside > ul {
     list-style-type: none;
+}
+
+article {
+    text-align: justify;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
 }
