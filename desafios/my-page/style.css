@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
- @view-transition {
+@view-transition {
     navigation: auto;
 }
 
@@ -33,7 +33,7 @@ header > img#banner{
     object-fit: cover;
     object-position: center;
     border-radius: 1cm;
-    margin: 10px 10px 20px 10px;
+    margin: 8px 8px 20px 8px;
 }
 
 nav {
