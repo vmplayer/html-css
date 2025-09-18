@@ -57,7 +57,6 @@ nav {
 nav > a {
     padding-left: 30px;
     padding-right: 30px;
-
     color: steelblue;
     font-weight: bold;
     text-decoration: none;
@@ -75,6 +74,7 @@ main {
     background-color: snow;
     border-radius: 10px;
     padding: 0px 10px 10px 10px;
+    position: center center;
     margin: 5px 30px;
 }
 
@@ -100,32 +100,23 @@ aside > ul {
     list-style-type: none;
 }
 
-aside > ul.social_links_img {
-    /*FUTURAMENTE...*/
+aside > ul.social_links a {
+    background-color: steelblue;
+    text-decoration: none;
+    color: snow;
+    border-radius: 5px;
+    padding: 2px 4px;
+    line-height: 5px;
 }
 
-a#item1 {
-    background-color: steelblue;
-    color: snow;
-    padding: 2px 4px;
+aside > ul.social_links a:hover {
+    background-color: lightblue;
+    color: steelblue;
 }
 
-a#item2 {
-    background-color: steelblue;
-    color: snow;
-    padding: 2px 4px;
-}
-
-a#item3 {
-    background-color: steelblue;
-    color: snow;
-    padding: 2px 4px;
-}
-
-a#item4 {
-    background-color: steelblue;
-    color: snow;
-    padding: 2px 4px;
+.svg {
+    width: 15px;
+    height: 15px;
 }
 
 article {

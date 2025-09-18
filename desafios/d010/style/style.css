@@ -167,6 +167,14 @@ aside > ul {
     columns: 2;
 }
 
+aside > ul.android-names {
+    background-color: var(--cor0);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
 aside > h3 {
     background-color: var(--cor3);
     padding: 5px;
