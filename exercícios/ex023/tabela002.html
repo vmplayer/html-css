@@ -19,6 +19,13 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: lightgray;
+        }
+
         td.number {
             text-align: right;
         }
@@ -34,6 +41,7 @@
     <!--
     ANATOMIA PARA TABELAS GRANDES
     TABLE
+        CAPTION
         THEAD
             TR, TD, TH
         TBODY 
@@ -42,12 +50,16 @@
             TR, TD, TH
         
     A SEMÂNTICA DO HTML, FAZ COM QUE O NAVEGADOR ENTENDA ONDE FICA O THEAD, TBODY E TFOOT, INDEPENDENTEMENTE DE ONDE SER DEIXADO, ELE SEMPRE DEIXARÁ NESTE MESMO PADRÃO! (recomanda-se seguir a ordem, tanto pela beleza do código, quanto para seguir este belo padrão)
+
+    TH > Título da Coluna
+    TD > Dado
     -->
     <table>
+        <caption>População das Unidades Feredativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -157,10 +169,9 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td class="number">213.421.037</td>
         </tfoot>
     </table>
-    <p>Atualizado no dia <strong>18/10/2025</strong></p>
 </body>
 </html>
