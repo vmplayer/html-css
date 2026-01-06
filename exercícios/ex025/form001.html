@@ -44,6 +44,32 @@
             border-right: none;
             outline: none;
         }
+
+        p#aviso > strong {
+            font-family: serif;
+            color: red;
+            border: 2px solid red;
+            padding: 1px 8px;
+            border-radius: 8px;
+        }
+
+        p#aviso {
+            font-family: serif;
+            color: red;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        p#mensagem-aviso {
+            font-family: serif;
+            text-align: justify;
+            max-width: 450px;
+        }
+
+        p#mensagem-aviso > strong {
+            font-family: serif;
+            color: darkslateblue;
+        }
     </style>
 </head>
 <body>
@@ -56,5 +82,6 @@
             <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar" id="submit"></p>
     </form>
+    <p id="aviso"><strong>!</strong> Aviso!</p> <p id="mensagem-aviso">Ao clicar no botão "Enviar", o download de um arquivo <strong>.php</strong> será solicitado, no arquivo não há absolutamente nada além de uma mensagem solicitando o estudo da linguagem. Se possível, não baixar.</p>
 </body>
 </html>
