@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        p#aviso > strong {
+            color: red;
+            border: 2px solid red;
+            padding: 1px 8px;
+            border-radius: 8px;
+        }
+
+        p#aviso {
+            margin-left: 0px;
+            color: red;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        p#mensagem-aviso {
+            background-color: lightgray;
+            padding: 6px 6px 6px 0px;
+            margin-left: 2px;
+            padding-left: 5px;
+            text-align: justify;
+            max-width: 450px;
+            border-left: 5px solid red;
+            border-radius: 5px;
+        }
+
+        p#mensagem-aviso > strong {
+            color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Seus dados:</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" minlength="3" maxlength="20" placeholder="Nome e Sobrenome" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="email@provedor.com" required>
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" pattern="^\+\d{2} \(\d{2}\) \d{4,5}-\d{4}$" placeholder="+55 (00) 01234-5678" autocomplete="tel" required>
+            </p>
+            <!-- Estudar mais sobre RegEx (expressões regulares)
+            HTML5 - tag <pattern> -->
+            <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+    </form>
+    <p id="aviso"><strong>!</strong> Aviso!</p>
+    <p id="mensagem-aviso">Ao clicar no botão "Enviar", o download de um arquivo <strong>.php</strong> será solicitado, no arquivo não há absolutamente nada além de uma mensagem solicitando o estudo da linguagem. Se possível, não baixar.</p>
+</body>
+</html>
