@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        p#aviso > strong {
+            color: red;
+            border: 2px solid red;
+            padding: 1px 8px;
+            border-radius: 8px;
+        }
+
+        p#aviso {
+            color: red;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        p#mensagem-aviso {
+            text-align: justify;
+            max-width: 450px;
+        }
+
+        p#mensagem-aviso > strong {
+            color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">Em qual ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2025" oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="iidade">Sua idade é: </label>
+            <output id="iidade"></output>
+        </p>
+
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <p id="aviso"><strong>!</strong> Aviso!</p>
+    <p id="mensagem-aviso">Ao clicar no botão "Enviar", o download de um arquivo <strong>.php</strong> será solicitado, no arquivo não há absolutamente nada além de uma mensagem solicitando o estudo da linguagem. Se possível, não baixar.</p>
+
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
