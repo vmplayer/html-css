@@ -4,10 +4,11 @@
 
 ## Projetos prontos concluídos ao longo do curso:
 
-1. [Projeto Android](https://vmplayer.github.io/html-css/desafios/d010%20Projeto%20Android/android.html)
-2. [Projeto Cordel](https://vmplayer.github.io/html-css/desafios/d012%20Projeto%20Cordel/index.html)
-3. [Projeto Social](https://vmplayer.github.io/html-css/desafios/d015%20Projeto%20Social/index.html)
-4. Em breve...
+1. [Projeto Android](https://vmplayer.github.io/html-css/projetos/a-projeto-android/android.html)
+2. [Projeto Cordel](https://vmplayer.github.io/html-css/projetos/b-projeto-cordel/)
+3. [Projeto Social](https://vmplayer.github.io/html-css/projetos/c-projeto-social/)
+4. [Projeto Login]{https://vmplayer.github.io/html-css/projetos/d-projeto-login/}
+5. Em breve...
 
 Saiba mais sobre cada projeto abaixo: 
 
@@ -32,3 +33,9 @@ O site conta um cordel criado por [Milton Duarte](https://www.recantodasletras.c
 O Projeto Social foi um projeto realizado ao decorrer do [Módulo 4](https://youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&si=XCh5SsE-NC_XAF8P) do curso.
 
 O projeto serve para divulgar redes sociais por meio do uso de um iframe, que simula a tela de um celular, enquanto usa uma captura de tela inteira para divulgar uma preview do perfil. Foi importante pois abordou desde a segurança, até mesmo similaridades compostas por um iframe.
+
+### Projeto Login
+
+O Projeto Login foi um projeto realizado durante o [Módulo 4](https://youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&si=XCh5SsE-NC_XAF8P) do curso, sendo ele o projeto de encerramento do módulo.
+
+O Projeto visa simular uma tela de login, utilizando formulários e técnicas mais avançadas como media queries e Mobile First.
