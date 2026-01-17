@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="username">Nome: </label>
+                        <input type="text" name="username" id="username">
+                    </p>
+                    
+                    <p>
+                        <label for="password">Senha: </label>
+                        <input type="password" name="password" id="password">
+                    </p>
+
+                    <p class="button" id="submit">
+                        <input type="submit" value="Entrar">
+                    </p>
+                    <p class="button" id="submit">
+                        <input type="submit" value="Esqueci minha senha">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
