@@ -7,7 +7,7 @@
 1. [Projeto Android](https://vmplayer.github.io/html-css/projetos/a-projeto-android/android.html)
 2. [Projeto Cordel](https://vmplayer.github.io/html-css/projetos/b-projeto-cordel/)
 3. [Projeto Social](https://vmplayer.github.io/html-css/projetos/c-projeto-social/)
-4. [Projeto Login]{https://vmplayer.github.io/html-css/projetos/d-projeto-login/}
+4. [Projeto Login](https://vmplayer.github.io/html-css/projetos/d-projeto-login/)
 5. Em breve...
 
 Saiba mais sobre cada projeto abaixo: 
