@@ -1,6 +1,6 @@
 # html-css
 
- Curso de HTML5 e CSS3 do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="external">Curso em Vídeo</a>
+ Curso de HTML5 e CSS3 do [Curso em Vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo)
 
 ## Projetos prontos concluídos ao longo do curso:
 
@@ -12,8 +12,7 @@
 
 Saiba mais sobre cada projeto abaixo: 
 
-
-- Todos os projetos se localizam na pasta [/desafios](https://github.com/vmplayer/html-css/tree/main/desafios) do repositório.
+- Todos os projetos se localizam na pasta [/projetos](https://github.com/vmplayer/html-css/tree/main/projetos) do repositório.
 - Todos os projetos foram publicados online por meio do [GitHub Pages](https://docs.github.com/pt/pages), de forma totalmente gratuita e pública.
 
 ### Projeto Android
