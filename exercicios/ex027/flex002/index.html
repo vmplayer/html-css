@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.container {
+            background-color: salmon;
+
+            display: flex;
+            flex-direction: row;
+        }
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* 
+        [P] = Padrão
+        E = Esquerda
+        D = Direita
+        C = Cima
+        B = Baixo
+
+        -- pai ---
+        display: flex = deve ser colocado no container (pai)
+
+        flex-direction:
+            column; -- cima para baixo [P]
+            column-reverse; -- baixo para cima
+            row; -- esquerda para a direita [P]
+            row-reverse; -- direita para a esquerda
+        
+            Eixos:
+                main-axis: direção horizontal (E-D)
+                cross-axis: direção vertical (C-B)
+
+                Os eixos mudam conforme o flex direction. (ou seja, se for row-reverse, o main-axis será D-E, por exemplo.)
+                Se o flex-direction for definido como column, o cross-axis assumirá a posição do main-axis. (ou seja, a estrutura gira)
+
+                main-start, main-end: começo e fim do contêiner, seguindo o main-axis
+                cross-start, cross-end: começo e fim do contêiner, seguindo o cross-axis
+
+
+        -- filho ---
+        flex: auto = define a flexibilidade como automática
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
